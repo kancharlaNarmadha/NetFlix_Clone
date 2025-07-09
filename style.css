@@ -9,6 +9,22 @@ body {
   color: white;
   font-family: Arial, sans-serif;
 }
+body {
+  background-color: #8B0000; 
+  display: flex;
+  justify-content: center;
+  padding: 30px 0;
+}
+
+.outer-wrapper {
+  background-color: #000;
+  max-width: 1200px;
+  width: 100%;
+  border-radius: 8px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.7);
+  overflow: hidden;
+}
+
 
 .navbar {
   background-color: #000;
@@ -65,7 +81,6 @@ body {
   height: 30px;
 }
 
-/* Featured Section */
 .featured {
   background: url('sg.jpg') no-repeat center center/cover;
   height: 70vh;
@@ -156,7 +171,6 @@ body {
   font-size: 14px;
 }
 
-/* Responsive */
 @media (max-width: 768px) {
   .nav-links {
     display: none;
